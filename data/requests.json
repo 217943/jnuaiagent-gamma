@@ -71,5 +71,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "4b3928fb-c108-4c50-9fc4-915227ce8642",
+        "timestamp": "2026-01-11 17:45:13",
+        "user_info": {
+            "role": "조교/연구원",
+            "dept": "공과대학"
+        },
+        "query": "학생 모집 요강을 나노바나나로 시각화 하고 싶어요. ",
+        "ai_analysis": {
+            "summary": "나노바나나를 활용한 학생 모집 요강 시각화 문의",
+            "difficulty": "L2",
+            "assignee_group": "CONSULTANT",
+            "reason": "특정 시각화 도구(나노바나나)를 활용한 모집 요강 시각화 문의로, 해당 도구에 대한 전문적인 지식과 데이터 시각화 기법에 대한 심화된 자문이 필요합니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
