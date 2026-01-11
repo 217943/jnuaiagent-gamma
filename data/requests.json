@@ -53,5 +53,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "75c1751f-8a1b-409f-9241-9b416c6934e5",
+        "timestamp": "2026-01-11 17:44:15",
+        "user_info": {
+            "role": "직원",
+            "dept": "학사과"
+        },
+        "query": "중도포기 위험 학생에게 안내한 문구를 짜기 위한 프롬프트를 설계해야 합니다. ",
+        "ai_analysis": {
+            "summary": "중도포기 위험 학생 안내 문구 생성을 위한 프롬프트 설계 요청입니다.",
+            "difficulty": "L3",
+            "assignee_group": "CONSULTANT",
+            "reason": "단순한 AI 활용을 넘어 특정 목적을 위한 프롬프트 '설계'는 AI 모델의 이해와 활용 전략에 대한 심층적인 지식을 요구하므로, 심화 난이도(L3)로 분류하여 전문적인 컨설팅이 필요하다고 판단했습니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
