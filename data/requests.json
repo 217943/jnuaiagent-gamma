@@ -127,8 +127,9 @@
             "reason": "선행연구 검색을 위한 정확한 프롬프트 설계는 일반적인 AI 활용법을 넘어선 전문적인 지식과 심화된 가이드를 요구하므로 심화 과정(L2)으로 분류됩니다.",
             "privacy_risk": "있음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "컨설턴트-01 (전문)",
+        "approved_at": "2026-01-11 12:18:48"
     },
     {
         "id": "8c7ac649-20ff-4eec-93cd-282c33ca25b3",
