@@ -14,7 +14,7 @@
             "reason": "코덱스(AI 코딩 도구)와 깃허브 연동은 단순 사용법을 넘어선 심화 기술 적용 문제로, 연구/수업 적용 가능성이 높아 전문적인 컨설팅이 필요합니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "전문 컨설턴트"
     }
 ]
