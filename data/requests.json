@@ -51,8 +51,9 @@
             "reason": "파이썬 그래프 라이브러리를 이용한 시각화는 데이터 분석의 기초 또는 입문 단계에서 다루는 일반적인 내용으로, 기본적인 파이썬 활용 능력을 가진 튜터가 지도하기 적합하다고 판단됩니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "튜터-01 (학생)",
+        "approved_at": "2026-01-11 17:46:13"
     },
     {
         "id": "75c1751f-8a1b-409f-9241-9b416c6934e5",
