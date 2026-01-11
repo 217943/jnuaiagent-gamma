@@ -70,8 +70,9 @@
             "reason": "단순한 AI 활용을 넘어 특정 목적을 위한 프롬프트 '설계'는 AI 모델의 이해와 활용 전략에 대한 심층적인 지식을 요구하므로, 심화 난이도(L3)로 분류하여 전문적인 컨설팅이 필요하다고 판단했습니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "컨설턴트-02 (전문)",
+        "approved_at": "2026-01-11 17:46:17"
     },
     {
         "id": "4b3928fb-c108-4c50-9fc4-915227ce8642",
