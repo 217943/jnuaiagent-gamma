@@ -108,7 +108,8 @@
             "reason": "Suno라는 특정 AI 도구의 기본적인 사용법에 대한 안내 요청입니다. 이는 AI 도구 활용의 기초 단계에 해당하므로 L0 난이도로 분류됩니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "튜터-03 (학생)",
+        "approved_at": "2026-01-11 17:46:41"
     }
 ]
