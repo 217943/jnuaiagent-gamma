@@ -89,8 +89,9 @@
             "reason": "특정 시각화 도구(나노바나나)를 활용한 모집 요강 시각화 문의로, 해당 도구에 대한 전문적인 지식과 데이터 시각화 기법에 대한 심화된 자문이 필요합니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "튜터-03 (학생)",
+        "approved_at": "2026-01-11 17:46:35"
     },
     {
         "id": "0cb98dfb-4e96-4205-8ff8-95dc1334f0ef",
