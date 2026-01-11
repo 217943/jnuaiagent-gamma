@@ -111,5 +111,23 @@
         "status": "approved",
         "final_assignee": "튜터-03 (학생)",
         "approved_at": "2026-01-11 17:46:41"
+    },
+    {
+        "id": "9f60f3c9-3d2c-4601-b936-27e4bfe6ade5",
+        "timestamp": "2026-01-11 09:13:50",
+        "user_info": {
+            "role": "교수",
+            "dept": "전주교대"
+        },
+        "query": "연구 주제가 있는데, 선행연구를 정확히 찾아주는 프롬프트 설계법이 궁금합니다. -전주교대 교수 임태형-",
+        "ai_analysis": {
+            "summary": "교수가 선행연구 검색을 위한 프롬프트 설계법에 대해 문의합니다.",
+            "difficulty": "L2",
+            "assignee_group": "CONSULTANT",
+            "reason": "선행연구 검색을 위한 정확한 프롬프트 설계는 일반적인 AI 활용법을 넘어선 전문적인 지식과 심화된 가이드를 요구하므로 심화 과정(L2)으로 분류됩니다.",
+            "privacy_risk": "있음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
