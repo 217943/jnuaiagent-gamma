@@ -1,0 +1,115 @@
+[
+    {
+        "id": "10d41844-cfb6-4dcc-b2a3-c0b76b9cfaf3",
+        "timestamp": "2026-01-11 17:35:53",
+        "user_info": {
+            "role": "교수",
+            "dept": "교육학과"
+        },
+        "query": "코덱스를 이용하여 바이브코딩 중인데 깃허브와의 연동에 대한 질문을 하고 싶어요.",
+        "ai_analysis": {
+            "summary": "코덱스와 깃허브 연동 관련 문의",
+            "difficulty": "L2",
+            "assignee": "전문 컨설턴트",
+            "reason": "코덱스(AI 코딩 도구)와 깃허브 연동은 단순 사용법을 넘어선 심화 기술 적용 문제로, 연구/수업 적용 가능성이 높아 전문적인 컨설팅이 필요합니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "approved",
+        "final_assignee": "전문 컨설턴트"
+    },
+    {
+        "id": "60bdc787-1f14-4da6-a2c0-853f0795e6f1",
+        "timestamp": "2026-01-11 17:41:40",
+        "user_info": {
+            "role": "교수",
+            "dept": "인문학과"
+        },
+        "query": "논문데이터 분석에 활용할 나노바나나 프롬프트를 짜고 싶습니다. ",
+        "ai_analysis": {
+            "summary": "교수님의 논문 데이터 분석을 위한 전문 프롬프트 작성 요청",
+            "difficulty": "L2",
+            "assignee_group": "CONSULTANT",
+            "reason": "논문 데이터 분석에 활용할 나노바나나 프롬프트 작성 요청으로, 학술 연구 목적의 심화된 프롬프트 엔지니어링 지식과 데이터 분석에 대한 이해를 필요로 합니다. 이는 기초적인 AI 활용을 넘어선 전문적인 상담이 필요한 영역으로 판단됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "approved",
+        "final_assignee": "컨설턴트-01 (전문)",
+        "approved_at": "2026-01-11 17:42:36"
+    },
+    {
+        "id": "1a41e0a1-4df5-45f6-a772-1d8d6d1ff93d",
+        "timestamp": "2026-01-11 17:43:30",
+        "user_info": {
+            "role": "직원",
+            "dept": "총무과"
+        },
+        "query": "파이썬 그래프를 통해 시각화 하고 싶습니다. ",
+        "ai_analysis": {
+            "summary": "파이썬 그래프를 이용한 데이터 시각화 문의",
+            "difficulty": "L1",
+            "assignee_group": "TUTOR",
+            "reason": "파이썬 그래프 라이브러리를 이용한 시각화는 데이터 분석의 기초 또는 입문 단계에서 다루는 일반적인 내용으로, 기본적인 파이썬 활용 능력을 가진 튜터가 지도하기 적합하다고 판단됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "approved",
+        "final_assignee": "튜터-01 (학생)",
+        "approved_at": "2026-01-11 17:46:13"
+    },
+    {
+        "id": "75c1751f-8a1b-409f-9241-9b416c6934e5",
+        "timestamp": "2026-01-11 17:44:15",
+        "user_info": {
+            "role": "직원",
+            "dept": "학사과"
+        },
+        "query": "중도포기 위험 학생에게 안내한 문구를 짜기 위한 프롬프트를 설계해야 합니다. ",
+        "ai_analysis": {
+            "summary": "중도포기 위험 학생 안내 문구 생성을 위한 프롬프트 설계 요청입니다.",
+            "difficulty": "L3",
+            "assignee_group": "CONSULTANT",
+            "reason": "단순한 AI 활용을 넘어 특정 목적을 위한 프롬프트 '설계'는 AI 모델의 이해와 활용 전략에 대한 심층적인 지식을 요구하므로, 심화 난이도(L3)로 분류하여 전문적인 컨설팅이 필요하다고 판단했습니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "approved",
+        "final_assignee": "컨설턴트-02 (전문)",
+        "approved_at": "2026-01-11 17:46:17"
+    },
+    {
+        "id": "4b3928fb-c108-4c50-9fc4-915227ce8642",
+        "timestamp": "2026-01-11 17:45:13",
+        "user_info": {
+            "role": "조교/연구원",
+            "dept": "공과대학"
+        },
+        "query": "학생 모집 요강을 나노바나나로 시각화 하고 싶어요. ",
+        "ai_analysis": {
+            "summary": "나노바나나를 활용한 학생 모집 요강 시각화 문의",
+            "difficulty": "L2",
+            "assignee_group": "CONSULTANT",
+            "reason": "특정 시각화 도구(나노바나나)를 활용한 모집 요강 시각화 문의로, 해당 도구에 대한 전문적인 지식과 데이터 시각화 기법에 대한 심화된 자문이 필요합니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "approved",
+        "final_assignee": "튜터-03 (학생)",
+        "approved_at": "2026-01-11 17:46:35"
+    },
+    {
+        "id": "0cb98dfb-4e96-4205-8ff8-95dc1334f0ef",
+        "timestamp": "2026-01-11 17:45:52",
+        "user_info": {
+            "role": "학생",
+            "dept": "음악학과"
+        },
+        "query": "수노를 통해 음악을 만드는 방법을 안내해 주세요. ",
+        "ai_analysis": {
+            "summary": "학생의 Suno를 활용한 음악 생성 방법 문의",
+            "difficulty": "L0",
+            "assignee_group": "TUTOR",
+            "reason": "Suno라는 특정 AI 도구의 기본적인 사용법에 대한 안내 요청입니다. 이는 AI 도구 활용의 기초 단계에 해당하므로 L0 난이도로 분류됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "approved",
+        "final_assignee": "튜터-03 (학생)",
+        "approved_at": "2026-01-11 17:46:41"
+    }
+]
