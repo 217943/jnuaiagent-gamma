@@ -129,5 +129,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "8c7ac649-20ff-4eec-93cd-282c33ca25b3",
+        "timestamp": "2026-01-11 09:25:01",
+        "user_info": {
+            "role": "직원",
+            "dept": "교육혁신본부 "
+        },
+        "query": "이름과 학번을 기반으로 참여 내역을 정리하기 위한 ai를 설계해주세요",
+        "ai_analysis": {
+            "summary": "이름과 학번을 기반으로 참여 내역을 정리하는 AI 설계 요청",
+            "difficulty": "L3",
+            "assignee_group": "CONSULTANT",
+            "reason": "이름, 학번 등 개인정보를 활용하여 특정 목적의 AI를 '설계'하는 요청으로, 데이터 처리, 모델 구조 설계 및 개인정보 보호 고려가 필요한 심화 문제에 해당합니다.",
+            "privacy_risk": "있음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
