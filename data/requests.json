@@ -89,5 +89,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "0cb98dfb-4e96-4205-8ff8-95dc1334f0ef",
+        "timestamp": "2026-01-11 17:45:52",
+        "user_info": {
+            "role": "학생",
+            "dept": "음악학과"
+        },
+        "query": "수노를 통해 음악을 만드는 방법을 안내해 주세요. ",
+        "ai_analysis": {
+            "summary": "학생의 Suno를 활용한 음악 생성 방법 문의",
+            "difficulty": "L0",
+            "assignee_group": "TUTOR",
+            "reason": "Suno라는 특정 AI 도구의 기본적인 사용법에 대한 안내 요청입니다. 이는 AI 도구 활용의 기초 단계에 해당하므로 L0 난이도로 분류됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
