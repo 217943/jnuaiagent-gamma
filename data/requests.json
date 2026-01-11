@@ -35,5 +35,23 @@
         "status": "approved",
         "final_assignee": "컨설턴트-01 (전문)",
         "approved_at": "2026-01-11 17:42:36"
+    },
+    {
+        "id": "1a41e0a1-4df5-45f6-a772-1d8d6d1ff93d",
+        "timestamp": "2026-01-11 17:43:30",
+        "user_info": {
+            "role": "직원",
+            "dept": "총무과"
+        },
+        "query": "파이썬 그래프를 통해 시각화 하고 싶습니다. ",
+        "ai_analysis": {
+            "summary": "파이썬 그래프를 이용한 데이터 시각화 문의",
+            "difficulty": "L1",
+            "assignee_group": "TUTOR",
+            "reason": "파이썬 그래프 라이브러리를 이용한 시각화는 데이터 분석의 기초 또는 입문 단계에서 다루는 일반적인 내용으로, 기본적인 파이썬 활용 능력을 가진 튜터가 지도하기 적합하다고 판단됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
