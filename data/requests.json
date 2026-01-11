@@ -182,8 +182,9 @@
             "reason": "연구보고서 작성에 필요한 AI 프롬프트에 대한 문의는 AI 활용의 심화된 이해와 특정 목적에 맞춘 가이드가 필요하므로 심화(L2)로 분류하며, 전문가 그룹인 CONSULTANT에게 배정함.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "컨설턴트-02 (전문)",
+        "approved_at": "2026-01-11 12:18:59"
     },
     {
         "id": "b5ed11cb-e68f-4d23-9cc2-8fd7f172b1aa",
