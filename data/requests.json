@@ -16,5 +16,23 @@
         },
         "status": "approved",
         "final_assignee": "전문 컨설턴트"
+    },
+    {
+        "id": "60bdc787-1f14-4da6-a2c0-853f0795e6f1",
+        "timestamp": "2026-01-11 17:41:40",
+        "user_info": {
+            "role": "교수",
+            "dept": "인문학과"
+        },
+        "query": "논문데이터 분석에 활용할 나노바나나 프롬프트를 짜고 싶습니다. ",
+        "ai_analysis": {
+            "summary": "교수님의 논문 데이터 분석을 위한 전문 프롬프트 작성 요청",
+            "difficulty": "L2",
+            "assignee_group": "CONSULTANT",
+            "reason": "논문 데이터 분석에 활용할 나노바나나 프롬프트 작성 요청으로, 학술 연구 목적의 심화된 프롬프트 엔지니어링 지식과 데이터 분석에 대한 이해를 필요로 합니다. 이는 기초적인 AI 활용을 넘어선 전문적인 상담이 필요한 영역으로 판단됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
