@@ -165,5 +165,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "377a3cac-0e49-4e6e-bfa0-620d12fdbead",
+        "timestamp": "2026-01-11 09:27:18",
+        "user_info": {
+            "role": "교수",
+            "dept": "교육학과2"
+        },
+        "query": "연구보고서 작성에 필요한 프롬프트도 있으면 좋을듯 합니다. ",
+        "ai_analysis": {
+            "summary": "교수의 연구보고서 작성 프롬프트 요청",
+            "difficulty": "L2",
+            "assignee_group": "CONSULTANT",
+            "reason": "연구보고서 작성에 필요한 AI 프롬프트에 대한 문의는 AI 활용의 심화된 이해와 특정 목적에 맞춘 가이드가 필요하므로 심화(L2)로 분류하며, 전문가 그룹인 CONSULTANT에게 배정함.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
