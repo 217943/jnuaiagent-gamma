@@ -147,5 +147,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "9740856f-201c-4e2b-9040-00685aede891",
+        "timestamp": "2026-01-11 09:26:54",
+        "user_info": {
+            "role": "조교/연구원",
+            "dept": "문헌정보학과"
+        },
+        "query": "도서관 서적 정리의 효율화를 위한 배치도를  나노바나나로 작성하는걸 더와주세요",
+        "ai_analysis": {
+            "summary": "도서관 서적 정리 효율화를 위한 배치도 작성 지원 요청",
+            "difficulty": "L3",
+            "assignee_group": "CONSULTANT",
+            "reason": "문의 내용이 도서관 서적 정리 효율화를 위한 배치도 작성으로, AI/최적화 기법을 활용하는 심화적인 문제 해결 능력과 전문 지식을 요구합니다. 또한, '나노바나나'라는 특정 도구의 활용이 언급되어 해당 도구에 대한 전문적인 지원이 필요하며, '조교/연구원'의 신분으로 보아 심화된 도움을 요청하는 것으로 판단됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
