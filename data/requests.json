@@ -1,0 +1,20 @@
+[
+    {
+        "id": "10d41844-cfb6-4dcc-b2a3-c0b76b9cfaf3",
+        "timestamp": "2026-01-11 17:35:53",
+        "user_info": {
+            "role": "교수",
+            "dept": "교육학과"
+        },
+        "query": "코덱스를 이용하여 바이브코딩 중인데 깃허브와의 연동에 대한 질문을 하고 싶어요.",
+        "ai_analysis": {
+            "summary": "코덱스와 깃허브 연동 관련 문의",
+            "difficulty": "L2",
+            "assignee": "전문 컨설턴트",
+            "reason": "코덱스(AI 코딩 도구)와 깃허브 연동은 단순 사용법을 넘어선 심화 기술 적용 문제로, 연구/수업 적용 가능성이 높아 전문적인 컨설팅이 필요합니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
+    }
+]
