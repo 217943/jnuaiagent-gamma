@@ -237,7 +237,8 @@
             "reason": "학생지도 양식 제작은 기본적인 문서 또는 폼 생성 도구 활용에 관한 문의로, AI 관련 심화된 기술적 분석이나 모델 개발을 요구하지 않는 기초적인 활용 지원에 해당합니다. 따라서 L1(기초) 단계로 분류되어 TUTOR가 담당합니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "튜터-02 (학생)",
+        "approved_at": "2026-01-12 13:53:39"
     }
 ]
