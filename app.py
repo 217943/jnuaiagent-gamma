@@ -7,7 +7,7 @@ from datetime import datetime
 import utils
 
 # --- [설정 및 상수 정의] ---
-st.set_page_config(page_title="성장마루 AI 클리닉", layout="wide")
+st.set_page_config(page_title="교육혁신본부 AI 클리닉", layout="wide")
 
 # 튜터/컨설턴트 명단 (가상 ID 부여)
 TUTORS = [f"튜터-{i:02d} (학생)" for i in range(1, 11)]  # 튜터-01 ~ 튜터-10
@@ -24,7 +24,7 @@ except Exception as e:
     st.error(f"API 키 설정 오류: {e}")
 
 # --- [메인 앱 로직] ---
-st.sidebar.title("🎓 성장마루 AI 클리닉")
+st.sidebar.title("🎓 교육혁신본부 AI 클리닉")
 st.sidebar.markdown("---")
 app_mode = st.sidebar.radio("메뉴 선택", ["상담 신청하기", "관리자 대시보드"])
 

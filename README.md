@@ -1,4 +1,4 @@
-# 📘 JNU AI Agent Gamma: 성장마루 AI 클리닉 배정 시스템
+# 📘 JNU AI Agent Gamma: 교육혁신본부 AI 클리닉 배정 시스템
 
 ## 1. 프로젝트 개요
 * **목적:** AI 활용 클리닉(서비스) 운영을 위한 상담 접수 및 AI 기반 트리아지(Triage) 시스템
