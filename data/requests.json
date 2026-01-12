@@ -203,5 +203,23 @@
         },
         "status": "pending",
         "final_assignee": null
+    },
+    {
+        "id": "02ff448f-d286-4153-a1d6-5da5b8aaf175",
+        "timestamp": "2026-01-12 00:34:31",
+        "user_info": {
+            "role": "교수",
+            "dept": "교육학과"
+        },
+        "query": "제미나이 로그인을 알려주세요",
+        "ai_analysis": {
+            "summary": "제미나이 로그인 방법 문의",
+            "difficulty": "L0",
+            "assignee_group": "TUTOR",
+            "reason": "제미나이 로그인 방법 문의는 AI 도구 사용의 가장 기본적인 질문으로, 심화된 지식이나 컨설팅이 필요 없는 기초적인 내용이므로 L0으로 분류하며 TUTOR가 담당합니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
