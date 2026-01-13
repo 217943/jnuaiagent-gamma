@@ -240,5 +240,23 @@
         "status": "approved",
         "final_assignee": "튜터-02 (학생)",
         "approved_at": "2026-01-12 13:53:39"
+    },
+    {
+        "id": "fbab326f-2dbd-4cc1-8ccf-ba63fea4d270",
+        "timestamp": "2026-01-13 02:57:00",
+        "user_info": {
+            "role": "조교/연구원",
+            "dept": "교육학과"
+        },
+        "query": "체크리스트 결과를 기반으로 컨설팅 보고서를 자동화 하고 싶어",
+        "ai_analysis": {
+            "summary": "체크리스트 기반 컨설팅 보고서 자동화 방안 문의",
+            "difficulty": "L3",
+            "assignee_group": "CONSULTANT",
+            "reason": "체크리스트 결과 분석 및 컨설팅 보고서 자동 생성은 단순 도구 활용을 넘어선 자연어 처리(NLP), 데이터 구조화 및 보고서 자동화 로직 구현 등 심화된 AI 기술 적용이 필요하므로 L3(심화)로 분류됩니다. 따라서 CONSULTANT의 전문적인 지도가 요구됩니다.",
+            "privacy_risk": "없음"
+        },
+        "status": "pending",
+        "final_assignee": null
     }
 ]
