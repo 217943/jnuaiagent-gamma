@@ -219,8 +219,9 @@
             "reason": "제미나이 로그인 방법 문의는 AI 도구 사용의 가장 기본적인 질문으로, 심화된 지식이나 컨설팅이 필요 없는 기초적인 내용이므로 L0으로 분류하며 TUTOR가 담당합니다.",
             "privacy_risk": "없음"
         },
-        "status": "pending",
-        "final_assignee": null
+        "status": "approved",
+        "final_assignee": "튜터-01 (학생)",
+        "approved_at": "2026-01-15 09:04:02"
     },
     {
         "id": "cafd31d4-187b-47c6-b5a0-255bf168a1fb",
