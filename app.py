@@ -38,7 +38,12 @@ if app_mode == "상담 신청하기":
     with st.form("request_form"):
         col1, col2 = st.columns(2)
         role = col1.selectbox("신분", ["교수", "직원", "학생", "조교/연구원"])
-        dept = col2.text_input("소속", placeholder="예: 교육학과")
+        user_name = col2.text_input("이름", placeholder="홍길동")
+        
+        col3, col4 = st.columns(2)
+        user_id = col3.text_input("학번/사번", placeholder="20241234")
+        dept = col4.text_input("소속", placeholder="예: 교육학과")
+        
         query = st.text_area("상담 요청 내용", height=150, 
                              placeholder="예: 논문 데이터 분석에 사용할 프롬프트를 짜고 싶습니다.")
         
@@ -73,7 +78,12 @@ if app_mode == "상담 신청하기":
                     new_request = {
                         "id": str(uuid.uuid4()),
                         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                        "user_info": {"role": role, "dept": dept},
+                        "user_info": {
+                            "role": role, 
+                            "name": user_name,
+                            "id_num": user_id,
+                            "dept": dept
+                        },
                         "query": query,
                         "ai_analysis": ai_result,
                         "status": "pending",
@@ -82,7 +92,7 @@ if app_mode == "상담 신청하기":
                     
                     current_data = utils.load_data()
                     current_data.append(new_request)
-                    utils.save_data(current_data, f"New request from {role}")
+                    utils.save_data(current_data, f"New request from {user_name} ({role})")
                     
                     st.success("✅ 신청 완료! 담당자가 곧 배정됩니다.")
                     with st.expander("내 문의 분석 결과"):
@@ -123,11 +133,15 @@ elif app_mode == "관리자 대시보드":
                     # AI 분석 정보
                     with c1:
                         diff = req['ai_analysis']['difficulty']
-                        role = req['user_info']['role']
-                        dept = req['user_info']['dept']
+                        u_role = req['user_info']['role']
+                        u_name = req['user_info'].get('name', '이름없음')
+                        u_dept = req['user_info']['dept']
+                        u_id = req['user_info'].get('id_num', '-')
+                        
                         color = "blue" if diff in ["L0", "L1"] else "red"
                         
-                        st.markdown(f"#### :{color}[{diff}] {role} ({dept})")
+                        st.markdown(f"#### :{color}[{diff}] {u_name} ({u_role}/{u_dept})")
+                        st.caption(f"학번/사번: {u_id}")
                         st.write(f"**문의:** {req['query']}")
                         st.caption(f"🤖 AI 의견: {req['ai_analysis']['reason']}")
                         
@@ -147,6 +161,27 @@ elif app_mode == "관리자 대시보드":
                             options = TUTORS + CONSULTANTS # 튜터 우선 표시
                             idx = 0
                             
+                        # 난이도 조정 (L0~L3)
+                        current_diff = req['ai_analysis']['difficulty'] # 기존 값
+                        diff_options = ["L0", "L1", "L2", "L3"]
+                        
+                        # 기존 값이 옵션에 없으면 추가 (Safe guard)
+                        if current_diff not in diff_options:
+                            diff_options.append(current_diff)
+                            
+                        # index 찾기
+                        try:
+                            diff_idx = diff_options.index(current_diff)
+                        except:
+                            diff_idx = 0
+                            
+                        selected_diff = st.selectbox(
+                            f"난이도 ({current_diff})",
+                            diff_options,
+                            index=diff_idx,
+                            key=f"diff_{req['id']}"
+                        )
+
                         # 구체적인 ID 선택 (예: 튜터-03)
                         selected_person = st.selectbox(
                             f"추천: {ai_group}", 
@@ -160,10 +195,17 @@ elif app_mode == "관리자 대시보드":
                                 if d['id'] == req['id']:
                                     d['status'] = 'approved'
                                     d['final_assignee'] = selected_person
+                                    
+                                    # 난이도 변경 감지
+                                    old_diff = d['ai_analysis'].get('difficulty')
+                                    if old_diff != selected_diff:
+                                        d['ai_analysis']['original_difficulty'] = old_diff
+                                        d['ai_analysis']['difficulty'] = selected_diff
+                                    
                                     d['approved_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                                     break
                             
-                            utils.save_data(raw_data, f"Assigned {req['id']} to {selected_person}")
+                            utils.save_data(raw_data, f"Assigned {req['id']} to {selected_person} (Diff: {selected_diff})")
                             st.toast(f"{selected_person}에게 배정 완료!")
                             st.rerun()
 
@@ -176,12 +218,19 @@ elif app_mode == "관리자 대시보드":
                 # 데이터프레임 변환 (보기 좋게 가공)
                 df = pd.DataFrame(approved_list)
                 
+                def format_difficulty(x):
+                    curr = x.get('difficulty', '-')
+                    orig = x.get('original_difficulty')
+                    if orig and orig != curr:
+                        return f"{orig} → {curr}"
+                    return curr
+
                 # 필요한 컬럼만 추출 및 이름 변경
                 display_df = pd.DataFrame({
                     "신청일시": df['timestamp'],
                     "신분": df['user_info'].apply(lambda x: x['role']),
                     "소속": df['user_info'].apply(lambda x: x['dept']),
-                    "난이도": df['ai_analysis'].apply(lambda x: x['difficulty']),
+                    "난이도": df['ai_analysis'].apply(format_difficulty),
                     "문의요약": df['ai_analysis'].apply(lambda x: x.get('summary', '-')),
                     "담당자": df['final_assignee'],
                     "처리일시": df.get('approved_at', '-')
